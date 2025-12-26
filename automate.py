@@ -65,7 +65,7 @@ try:
         EC.presence_of_element_located((By.XPATH, "//button[text()='Logout']"))  # Replace with actual logout button
     )
     logout_button.click()
-    print("Logged out successfully ✅")
+    print("Logged out successfully ")
 
     time.sleep(2)  # wait a bit before closing browser
 
